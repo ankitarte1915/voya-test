@@ -1,0 +1,28 @@
+@mixin button{
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: 0.75rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+@mixin primary-button {
+    @include button;
+    color: #0546FF;
+    border: 1px solid #E9EFFF;
+    background-color: #E9EFFF;
+    &:hover{
+        background-color: #DAE4FF;
+    }
+}
+
+@mixin danger-button {
+    @include button;
+    color: #F11653;
+    border: 1px solid #FEF3F6;
+    background-color: #FEF3F6;
+
+    &:hover{
+        background-color: #FDDCE5;
+    }
+}
