@@ -1,0 +1,39 @@
+@import "./../../../styles.scss";
+
+  .main{
+    margin-left:10%;
+  }
+  
+  .display-user-btn, .confirm-btn {
+    @include primary-button;
+  }    
+
+  .cancel-btn{
+    @include danger-button;
+    margin-left:10px;
+  }
+
+  dialog{
+    margin:0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.5rem;
+    border:1px solid #252525;
+    .footer{
+        display: flex;
+        justify-content: flex-end;
+    }
+  }
+
+  table{
+    border-collapse: collapse;
+    width:50%;
+    max-width: 50%;
+    td,th{
+        padding: 0.75rem;
+        border-bottom: 1px solid #afafaf;
+        text-align: center;
+    }
+  }

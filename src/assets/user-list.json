@@ -1,0 +1,38 @@
+[
+    {
+      "email": "john.doe@gmail.com",
+      "first_name": "John",
+      "last_name": "Doe",
+      "age":42
+    },
+    {
+      "email": "janet.beth@hotmail.in",
+      "first_name": "Janet",
+      "last_name": "Beth",
+      "age":25
+    },
+    {
+      "email": "emma.slimes@yahoo.com",
+      "first_name": "Emma",
+      "last_name": "Slimes",
+      "age":60
+    },
+    {
+      "email": "yobi.larana@gmail.com",
+      "first_name": "Yobi",
+      "last_name": "Larana",
+      "age":54
+    },
+    {
+      "email": "janis.doe@yahoo.com",
+      "first_name": "Janis",
+      "last_name": "Doe",
+      "age":29
+    },
+    {
+      "email": "Jane.Doe@hotmail.com",
+      "first_name": "Jane",
+      "last_name": "Doe",
+      "age":18
+    }
+  ]
