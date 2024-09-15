@@ -1,27 +1,26 @@
-# VoyaTest
+# Voya Test
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
+This project contains the test code submitted to Voya.
+This project aims specifically to verify the **RXJS functionality** 
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Use `git pull` to get the latest code from main branch.
+Run `npm install` to install the packages and dependencies.
+Run `ng serve` for a dev server. 
+Navigate to `http://localhost:4200/`. 
 
-## Code scaffolding
+## Description
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+On the homepage you will see a button to 'display the users'. This button is styled using ***SCSS Mixins***. Clicking on this button, will open a modal window which is **centerred on the screen**. It has 2 buttons in the footer - confirm and cancel. 
 
-## Build
+I have demonstrated the RXJS functionality for **subscribe/observable** and have also used RXJS operator **filter**.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+On the confirm click, I am using http.get method to call a demo json file. This method returns an observable, which is then subscribed in the user component to populate the data on the screen.
+The first table will display all the data, and the second table will display only the data where users are more than 30 years old. 
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Screenshots
 
-## Running end-to-end tests
+I have also included screenshots on the pages and saved them under 'screenshots' folder.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
